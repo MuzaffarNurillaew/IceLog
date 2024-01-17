@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D60F935-CBFB-407A-94D0-DF062383BE1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceLog.Api", "src\IceLog.Api\IceLog.Api.csproj", "{79CFC9AD-37CA-4273-BE22-3E49821D021E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceLog.Application", "src\IceLog.Application\IceLog.Application.csproj", "{A0F9C09D-3457-4DA3-A394-A36C573F83E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceLog.Domain", "src\IceLog.Domain\IceLog.Domain.csproj", "{9FA8D402-61B4-4BE2-A654-97D9F6B7E27C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceLog.Infrastructure", "src\IceLog.Infrastructure\IceLog.Infrastructure.csproj", "{B54987EF-256F-421A-8866-6C0CCB0B9B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceLog.Persistence", "src\IceLog.Persistence\IceLog.Persistence.csproj", "{9FB2F84E-B2A6-44D6-A381-5442EFDB8D74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79CFC9AD-37CA-4273-BE22-3E49821D021E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CFC9AD-37CA-4273-BE22-3E49821D021E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CFC9AD-37CA-4273-BE22-3E49821D021E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CFC9AD-37CA-4273-BE22-3E49821D021E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F9C09D-3457-4DA3-A394-A36C573F83E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F9C09D-3457-4DA3-A394-A36C573F83E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F9C09D-3457-4DA3-A394-A36C573F83E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F9C09D-3457-4DA3-A394-A36C573F83E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA8D402-61B4-4BE2-A654-97D9F6B7E27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA8D402-61B4-4BE2-A654-97D9F6B7E27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA8D402-61B4-4BE2-A654-97D9F6B7E27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA8D402-61B4-4BE2-A654-97D9F6B7E27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54987EF-256F-421A-8866-6C0CCB0B9B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54987EF-256F-421A-8866-6C0CCB0B9B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54987EF-256F-421A-8866-6C0CCB0B9B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54987EF-256F-421A-8866-6C0CCB0B9B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB2F84E-B2A6-44D6-A381-5442EFDB8D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB2F84E-B2A6-44D6-A381-5442EFDB8D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB2F84E-B2A6-44D6-A381-5442EFDB8D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB2F84E-B2A6-44D6-A381-5442EFDB8D74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79CFC9AD-37CA-4273-BE22-3E49821D021E} = {9D60F935-CBFB-407A-94D0-DF062383BE1F}
+		{A0F9C09D-3457-4DA3-A394-A36C573F83E6} = {9D60F935-CBFB-407A-94D0-DF062383BE1F}
+		{9FA8D402-61B4-4BE2-A654-97D9F6B7E27C} = {9D60F935-CBFB-407A-94D0-DF062383BE1F}
+		{B54987EF-256F-421A-8866-6C0CCB0B9B32} = {9D60F935-CBFB-407A-94D0-DF062383BE1F}
+		{9FB2F84E-B2A6-44D6-A381-5442EFDB8D74} = {9D60F935-CBFB-407A-94D0-DF062383BE1F}
+	EndGlobalSection
+EndGlobal
