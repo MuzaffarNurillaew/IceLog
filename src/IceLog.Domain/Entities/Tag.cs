@@ -1,6 +1,10 @@
+using IceLog.Domain.Commons;
+
 namespace IceLog.Domain.Entities;
 
-public class Tag
+/// <inheritdoc cref="Auditable"/>
+public class Tag : Auditable
 {
-    
+    public required string Name { get; set; }
+    public List<Post> Posts { get; set; } = new();
 }

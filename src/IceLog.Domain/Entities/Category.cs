@@ -1,6 +1,9 @@
+using IceLog.Domain.Commons;
+
 namespace IceLog.Domain.Entities;
 
-public class Category
+/// <inheritdoc cref="Auditable"/>
+public class Category : Auditable
 {
-    
+    public required string Name { get; set; }
 }
